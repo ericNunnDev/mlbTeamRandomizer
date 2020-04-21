@@ -3,7 +3,7 @@ export default [
         id: 1,
         division: 'East',
         team: 'Baltimore Orioles',
-        image: ''
+        image: 'https://en.wikipedia.org/wiki/Baltimore_Orioles#/media/File:Baltimore_Orioles_cap.svg'
     },
     {
         id: 2,
