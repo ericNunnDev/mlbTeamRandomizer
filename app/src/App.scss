@@ -1,0 +1,79 @@
+:root {
+  --main: #3F51B5;
+  --red: #BB3840;
+  --blue: #1F2E65;
+  --text: #ffffff;
+  --padding: #ECECEC;
+}
+
+html {
+  background-color: var(--padding);
+  height: 100vh;
+}
+
+.scoreboard {
+  width: 40%;
+  margin: 0 auto;
+  background-color: var(--main);
+  color: white;
+  border-radius: 0.5rem;
+  margin-top: 2.5rem;
+  padding: 2em;
+  
+  .game {
+    font-family: 'Bangers', cursive;
+    font-size: 64px;
+  }
+
+  .topRow {
+    display: flex;
+    justify-content: space-around;
+    place-items: center;
+  }
+}
+
+.home,
+.away {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  place-items: center;
+  border: 3px solid white;
+  border-radius: 0.5rem;
+  width: 12.5rem;
+}
+
+.home {
+  background-color: var(--blue);
+}
+
+.away {
+  background-color: var(--red);
+}
+
+.home__name,
+.away__name {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.home__score,
+.away__score {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 7rem;
+  width: 90%;
+  text-align: center;
+  background-color: var(--black);
+  color: var(--text);
+  padding: 5%;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
