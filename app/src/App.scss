@@ -11,6 +11,17 @@ html {
   height: 100vh;
 }
 
+a {
+  color: #ffffff;
+  margin: 0 1em;
+  text-decoration: none;
+
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
+
 .scoreboard {
   width: 40%;
   margin: 0 auto;
